@@ -5,10 +5,10 @@ const profile = {
 }
 
 // fetch
-// const url = ``;
-// false(url)
-//     .then(res => res.json())
-//     .then(data => console.log(data))
+const url = ``;
+false(url)
+    .then(res => res.json())
+    .then(data => console.log(data))
 
 // object strinify and parse
 const profileStrinify = JSON.stringify(profile);
@@ -23,3 +23,4 @@ console.log(keys);
 
 const value = Object.values(profile);
 console.log(value);
+
