@@ -6,5 +6,5 @@ const student = {
     baby: 'one',
     home: 'none'
 }
-const aboutMe = `I am md ${student.name} and I am ${student.age} years old and I do ${student.job} job in Barishal and I have ${student.baby} baby`;
+const aboutMe = `I am md ${student.name} and I am ${student.age} years old and I do ${student.job} job in Barishal and I have ${student.baby} baby.`;
 console.log(aboutMe);
