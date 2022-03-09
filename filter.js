@@ -9,5 +9,5 @@ const phoneDetails = [
 const phone = phoneDetails.filter(product => product.price <= 30000);
 console.log(phone);
 
-const phoneName = phoneDetails.filter(product => product.name === 'iphone12');
+const phoneName = phoneDetails.filter(product => product.name.includes('i'));
 console.log(phoneName);
